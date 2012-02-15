@@ -2,11 +2,11 @@
 
 A pinyin parser for nodejs
 
-## installation
+## Installation
 
 npm install pinyin
 
-## usage
+## Usage
             var pinyin = require('pinyin');
             console.log(pinyin('孙悟空'));
                 [ [ 'Sun', 'Wu', 'Kong' ], [ 'Xun', 'Wu', 'Kong' ] ]
