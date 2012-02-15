@@ -8,11 +8,11 @@ npm install pinyin
 
 ## usage
             var pinyin = require('pinyin');
-            console.log(pinyin('ËïÎò¿Õ'));
+            console.log(pinyin('å­™æ‚Ÿç©º'));
                 [ [ 'Sun', 'Wu', 'Kong' ], [ 'Xun', 'Wu', 'Kong' ] ]
-            console.log(pinyin('ËïÎò¿Õ',true,''));
+            console.log(pinyin('å­™æ‚Ÿç©º',true,''));
                 SunWuKong
-            console.log(pinyin('ËïÎò¿Õ', false, ','));
+            console.log(pinyin('å­™æ‚Ÿç©º', false, ','));
                 Sun,Wu,Kong,Xun,Wu,Kong
 
 ## License
