@@ -1,11 +1,9 @@
 /**
 * pinyin(hans [,single] [,split]);
 * 极速，灵活，全面的拼音转换算法。
-* console.log('猪八戒',pinyin('猪八戒', true, ''));
-* console.log('猪八戒',pinyin('猪八戒', false, ''));
 *
-* @author Vingel (@vingel <vingel[AT]gmail.com>)
-* @version 2012/02/14, v0.0.1
+* @author 闲耘™ (@hotoo <hotoo.cn[AT]gmail.com>)
+* @version 2010/07/30, v1.0
 */
 
 var PINYIN_DICT = [
@@ -490,10 +488,6 @@ var PINYIN_DICT = [
 var pinyin = module.exports = function(dict){
     var DICT = dict;
 
-    /*
-     * Note: 除 Firefox 之外，IE,Chrome,Safari,Opera
-     *       均为 s.split("")[i] 比 s.charAt(i) 的性能好。
-     */
     var PINYIN_DICT_CACHE = {};
     for(var i=0,l=DICT.length; i<l; i++){
         var hans = DICT[i][1];
