@@ -1,0 +1,18 @@
+{
+  "author": "Vingel <vingel@gmail.com> (http://www.vingel.com)",
+  "name": "pinyin",
+  "description": "nodejs pinyin parser",
+  "version": "0.0.1",
+  "homepage": "https://github.com/vingel/node-pinyin",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vingel/node-pinyin.git"
+  },
+  "main": "pinyin.js",
+  "engines": {
+    "node": "*"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "optionalDependencies": {}
+}
