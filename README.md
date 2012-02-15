@@ -1,6 +1,6 @@
 # node-pinyin
 
-A pinyin parse for nodejs
+A simple pinyin parser for nodejs
 
 ## installation
 
